@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(88, 86, 86);
+}
+
+.heada{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+
+}
+.heada a{
+    text-decoration: none;
+    color: white;
+}
+.heada a:hover{
+    color: blue;
+}
+.heada2{
+    padding-left: 0.5rem;
+}
+.heada2 p{
+    color: white;
+}
+.end{
+    display: flex;
+    padding-right: 3rem;
+    padding-left: 2rem;
+}
+.enda{
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+span{
+    color: brown;
+}
+.endb{
+    margin-left: auto;
+  margin-right: 0;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+ padding: 1rem;
+}
+.endba{
+    padding: 0.2rem;
+}
+.endba1{
+    padding: 0.2rem;
+    color: white;
+}
+.endba2{
+    padding: 0.2rem;
+}
+.endba2 input{
+    width: 250px;
+    height: 30px;
+    border-color: blue;
+    border-radius: 5px;
+    background-color: black;
+}
+.endbb{
+    padding: 0.2rem;
+}
+.endbb1{
+    padding: 0.2rem;
+}
+.endbb2{
+    padding: 0.2rem;
+}
+.endbb2 input{
+    width: 250px;
+    height: 30px;
+    border-color: blue;
+    border-radius: 5px;
+    background-color: black;
+}
+.endbc{
+    padding: 0.2rem;
+}
+.endbc1{
+    padding: 0.2rem;
+}
+.endbc2{
+    padding: 0.2rem;
+}
+.endbc2 input{
+    width: 250px;
+    height: 30px;
+    border-color: blue;
+    border-radius: 5px;
+    
+    background-color: black;
+    
+}
+.endd{
+    padding-top: 1rem;
+    padding-left: 0.2rem;
+}
+.endd button{
+    height: 30px;
+    width: 250px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
+.extra{
+    min-height: 200px;
+    
+}
+
+
+.foot{
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.foota{
+    display: flex;
+}
+.foota2{
+    padding-left: 1rem;
+}
+.footba{
+    display: flex;
+    
+}
+
+.footb{
+    display: flex;
+     margin-left: auto;
+     margin-right: 0%;
+  
+}
+.footba2{
+   padding-right: 1rem; 
+}
+.footba1 img{
+    width: 20px;
+    height: 20px;
+}
+.footbc{
+    display: flex;
+}
+.footbc1 img{
+width: 20px;
+height: 20px;
+}
+
+
+
+@media screen and (max-width:600px){
+    .end{
+        display: block;
+    }
+    .extra{
+        min-height: 100px;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(88, 86, 86);
+}
+
+.heada{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+
+}
+.heada a{
+    text-decoration: none;
+    color: white;
+}
+.heada a:hover{
+    color: blue;
+}
+.heada2{
+    padding-left: 0.5rem;
+}
+.heada2 p{
+    color: white;
+}
+.middle{
+    display: flex;
+    padding: 2rem;
+}
+.middleba{
+    display: flex;
+     padding-top: 3rem;
+     padding-bottom: 3rem;
+}
+.middlebe{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 100px;
+    padding: 0.5rem;
+    
+}
+.middlebe p{
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.middlebb{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 100px;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.middlebb2 p{
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.middlebc{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 100px;
+    padding: 0.5rem;
+    
+}
+.middlebc2 p{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.middled{
+    margin-left: auto;
+  margin-right: 0;
+  
+}
+.middlec{
+    display: flex;
+    
+}
+.middled img{
+    width: 60%;
+    height: 90%;
+}
+
+
+
+@media screen and (max-width:600px){
+.middle{
+    display: block;
+}
+
+
+
+}
+
+
+@media screen and (max-width:768px){
+    .middle{
+        display: block;
+    }
+    
+    
+    
+    }

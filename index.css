@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1em;
+    background-color: rgb(88, 86, 86);
+}
+
+.head{
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+
+}
+.heada{
+    display: flex;
+    align-items: center;
+}
+.heada2{
+    padding-left: 0.5rem;
+}
+.headb{
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+.headb1{
+    padding-right: 1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    color: blue;
+}
+.middle{
+    display: flex;
+    margin-left: auto;
+  margin-right: 0;
+  align-items: center;
+  padding: 2rem;
+}
+.middlea img{
+    width: 50%;
+    height: 50%;
+}
+.middleb{
+    padding-left: 3rem;
+}
+.middleb1{
+    color: white;
+    padding: 1rem;
+}
+.middleb2{
+    color: white;
+}
+.middleb3{
+    color: white;
+    padding: 1rem;
+}
+.middleb3 button{
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+
+
+
+@media screen and (max-width:600px){
+.middle{
+    display: block;
+}
+
+}
